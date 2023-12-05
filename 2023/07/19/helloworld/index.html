@@ -89,7 +89,7 @@ MultiThreadExample
         
         <div class="comments-link">
             
-            <a href="javascript:void(0);" data-url="http://example.com/2023/07/19/helloworld/" data-id="clprsqv8h0000bcsz8cwf5jq2" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
+            <a href="javascript:void(0);" data-url="http://example.com/2023/07/19/helloworld/" data-id="clprwjzdy00006wsz51e73mjp" class="leave-reply bdsharebuttonbox" data-cmd="more">Share</a>
         </div><!-- .comments-link -->
       </header><!-- .entry-header -->
 
@@ -148,8 +148,31 @@ MultiThreadExample
 
 
 
+<div class="gitalk" id="gitalk-container"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 
 
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js"></script>
+
+<script type="text/javascript">
+  var gitalk = new Gitalk({
+    clientID: '5db4843f57056aa8f6f6',
+    clientSecret: 'd00e333577cd297820fa4d931b007fd54bfffced',
+    repo: 'fortunelee.github.io',
+    owner: '791850806@qq.com',
+    admin: '791850806@qq.com',
+    // id: location.pathname,
+    id: md5(location.pathname),
+    distractionFreeMode: false,
+    pagerDirection: 'last'
+  })
+
+  gitalk.render('gitalk-container')
+</script>
 </div></div>
         <div id="secondary" class="widget-area" role="complementary">
   
