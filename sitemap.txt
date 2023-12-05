@@ -1,2 +1,4 @@
-http://example.com/2023/12/04/doll/
+http://example.com/2023/07/19/helloworld/
 http://example.com/
+http://example.com/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/
+http://example.com/categories/%E6%8A%80%E6%9C%AF/
